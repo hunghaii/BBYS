@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-quantri-quanlisan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="user">Nguyen van A</div>
+    </div>
+    <div id="body">
+        <div class="main_tab">
+            <div class="main_tab_container">
+                <div class="user_pic">
+                    <img src="img/badmintonk.png">
+                </div>
+                <div class="manager">
+                   <ul>
+                       <li>                            
+                            <a href="quan-tri-quanlisan.html">
+                                <i class="fa-solid fa-briefcase"></i>
+                                Quản lí sân
+                            </a>
+                        </li>
+                        <li>                            
+                            <a href="quantri-hosocanhan.html">
+                                <i class="fa-solid fa-user"></i>
+                                Hồ sơ cá nhân
+                            </a>
+                        </li>
+                        <li>                            
+                            <a href="quantri-sandadat.html">
+                                <i class="fa-solid fa-ticket"></i>
+                                Sân đã đặt
+                            </a>
+                        </li>
+                   </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <form action="" class="user_manager">
+                <table class="user_manager">
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Tên</td>
+                        <td><input type="text" class="name" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Số điện thoại</td>
+                        <td><input type="text" class="phone" name="phone"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" class="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Ảnh</td>
+                        <td><input type="text" class="picture" name="picture"></td>
+                        <td><button type="submit" class="upload_pic" name="uploadPic">Tải ảnh lên</button></td>
+                    </tr>
+                    <tr>
+                        <td>Mật khẩu</td>
+                        <td><input type="password" class="pass" name="pass"></td>
+                        <td><button class="show_pass"><i class="fa-solid fa-eye-slash"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td>Nhập lại mật khẩu</td>
+                        <td><input type="password" class="REpass" name="rePass"></td>
+                        <td><button class="show_pass"><i class="fa-solid fa-eye-slash"></i></button></td>
+
+                    </tr>                    
+                </table>
+                <button type="submit" class="update_user">Cập nhật</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

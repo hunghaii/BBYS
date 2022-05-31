@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #EBF5EF;
+    height: 2000px;
+}
+
+a:hover{
+    color:rgb(238, 155, 67);
+}
+#header{
+    background-image: url("img/adult-badminton-banner.jpg");
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;   
+}
+
+.logo{
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.author{
+    margin-top: 20px;
+    float: right;
+    margin-right: 50px;
+}
+
+.author .login_text{
+    margin-right: 20px;
+}
+
+#nav_bar{
+    background-color: #185C43;
+    height: 60px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 60px;
+}
+
+#nav_bar li{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 25px; 
+}
+
+#nav_bar li a{
+    color: #fff;
+}
+
+#nav_bar li a:hover{
+    color: #ffa82e;
+}
+
+#search_section{
+    height: 110px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.search_location{
+    display: inline-block;
+}
+#location{
+    padding: 10px 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #185C43;
+    background-color: #185c432a;
+    font-size: 20px;
+    margin-right: 100px;
+    border-radius: 4px;
+}
+
+#location:hover{
+    border-bottom: 3px solid #ffa82e;
+}
+
+.search_form p{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+#date{
+    background-color: #185c432a;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #185C43;
+    border-radius: 4px;
+}
+
+#date:hover{
+    border-bottom: 3px solid #ffa82e;
+}
+
+#search_section .search_container{
+    line-height: 100px;
+    margin: 0px auto;
+    width: 80%;
+    height: inherit;
+}
+
+.search_btn{
+    margin-left: 100px;
+    background-color: #185C43;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgb(167, 167, 167);
+    cursor: pointer;
+    border: 0px;
+    transition: all 0.3s;
+}
+
+.search_btn:hover{
+    transform: scale(1.02);
+}
+
+#main_yard_section{
+    margin-top: 100px;
+    padding-top: 50px;
+    height: 580px;
+    width: 100%;
+    background-image: url("img/Banner\ -\ Badminton\ 2.png");
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.yard_container{
+    margin: 0px auto;
+    width: 90%;
+}
+
+.yard_container:nth-child(1){
+    text-align: center;
+}
+
+.yard:first-child{
+    float: left;
+}
+.yard:last-child{
+    float: right;
+}
+
+.yard{
+    display: inline-block;
+    width: 420px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.1);
+
+}
+.yard:hover{
+    box-shadow: none;
+}
+
+.yard_img{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.yard_img img{
+    height: 250px;
+    width: 100%;
+    transition: ease-in 0.3s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.yard_img img:hover{
+    transform: scale(1.1);   
+}
+
+.yard_info{
+    text-align: left;
+    margin-top: 10px;
+    padding: 0px 20px;
+
+}
+
+.yard_info h3, h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.yard_info ul{
+    margin-bottom: 10px;
+}
+.yard_info li{
+    display: inline-block;
+}
+
+.yard_info li a{
+    font-size: 20px;
+    margin-right: 6px;
+    color: rgb(0, 75, 90);
+}
+
+.yard_info li a:hover{
+    color: #ffa82e;
+}
+.yard_info .more{
+    float: right;
+    opacity: 0.5;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.more_yard_container{
+    width: 100%;
+    text-align: center;
+}
+.more_yard{
+    margin: 30px auto;
+    border-radius: 5px;
+    height: 50px;
+    width: 160px;
+    background-color: #86E365;
+    line-height: 50px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    transition: all 0.4s;
+}
+
+.more_yard:hover{
+    background-color: #65e3db;
+    transform: scaleX(1.1) ;
+}
+#small_yard_section{
+    margin-top: 100px;
+    padding-top: 50px;
+    height: 650px;
+    width: 100%;
+    background-image: url("img/banner\ -\ badminton\ 4.jpg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+
+}
+
+#small_yard_section_2{
+    margin-top: 100px;
+    padding-top: 50px;
+    height: 650px;
+    width: 100%;
+    background-image: url("img/banner\ -\ Badminton\ 3.jpg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+}
+
+.small_yard:first-child{
+    float: left;
+}
+
+.small_yard:last-child{
+    float: right;
+}
+
+.small_yard{
+    display: inline-block;
+    width: 420px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.1);
+}
+
+.small_yard:hover{
+    box-shadow: none;
+}
+
+.small_yard_img{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;    
+}
+
+.small_yard_img img{
+    height: 250px;
+    width: 100%;
+    transition: ease-in 0.3s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.small_yard_img img:hover{
+    transform: scale(1.1);   
+}
+
+.small_yard_info{
+    text-align: left;
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+
+.small_yard h2 {
+    display: inline;
+}
+
+.small_yard_info .price{
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.small_yard_info h3, h2{
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.small_yard_info li{
+    display: inline-block;
+}
+
+.small_yard .time{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+
+.small_yard_info .odered{
+    background-color: #a9a9a9;
+}
+
+.small_yard_info .free{
+    background-color: #86E365;
+}
+
+
+.small_yard_info .booking_btn{
+    background-color: #86E365;
+    width: 100px;
+    float: right;
+    text-align: center;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.303);
+    transition: all 0.3s;
+}
+
+.small_yard_info .booking_btn:hover{
+    transform: translateY(1px);
+    background-color: #65e3db;
+}
+
+
+#footer{
+    height: 250px;
+    width: 100%;
+    margin-top: 100px;
+    background-image: url("img/header\ banner.jpg");
+    background-size: cover;
+}
+
+
